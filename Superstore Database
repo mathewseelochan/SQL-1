@@ -43,6 +43,11 @@ ORDER BY price desc;
 SELECT SUM(price)
 FROM superstore;
 
+/* also took average as it is a more viable summary */ 
+
+SELECT AVG(price) 
+FROM superstore; 
+
 -- #3 Write query to show a statistic for price of items in "Kitchen Supplies"
 
 SELECT AVG(price)
